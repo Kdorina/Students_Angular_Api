@@ -1,0 +1,38 @@
+.container{
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+                5px 5px 5px rgba(0, 0, 0,0.05),
+                -5px -5px 5px rgba(255, 255, 255, 0.5);
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-style: none;
+}
+a:hover{
+    color:rgb(255, 187, 187);
+}
+
+.about{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+}
+.card{
+    padding: 20px;
+    width: 550px;
+    height: 200px;
+    justify-content: center;
+    background-color: rgba(160, 176, 255, 0.26);
+    box-shadow: 0 10px 20px rgb(0, 0, 0,0.1);
+    border: none;
+    border-radius: 10px;
+
+}
+h2 ,h5 ,h6{
+    margin: 10px;
+}

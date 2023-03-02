@@ -1,0 +1,48 @@
+
+h2{
+    margin-top: 50px;
+    text-transform:uppercase;
+}
+
+.container{
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.studentsTable{
+    display: flex;
+    width: 500px;
+    background-color: rgb(234, 235, 255);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0,0.1);
+    // margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.studentsTable table{
+    width: 500px;
+}
+.scoresTable{
+    display: flex;
+    background-color: rgb(214, 237, 255);
+    box-shadow: 0 10px 20px rgb(0, 0, 0,0.1);
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    // margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scoresTable table{
+    width: 200px;
+
+}
