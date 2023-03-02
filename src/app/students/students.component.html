@@ -1,1 +1,37 @@
-<p>students works!</p>
+
+
+<div class="container m-2">
+    <table class="table m-3" id="studentsTable">
+        <thead>
+            <th>ID</th>
+            <th>Név</th>
+            <th>Nem</th>
+            <th>Osztály</th>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let student of students">
+                <td>{{student.id}}</td>
+                <td>{{student.name}}</td>
+                <td>{{student.gender}}</td>
+                <td>{{student.group}}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table class="table m-3"  id="scoresTable">
+        <thead>
+            <th>ID</th>
+            <th>Pont</th>
+            <th>Diák Id</th>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let score of scores">
+                <td>{{score.id}}</td>
+                <td>{{score.score}}</td>
+                <td>{{score.studentId}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
