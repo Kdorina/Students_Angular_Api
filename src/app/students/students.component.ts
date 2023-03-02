@@ -1,4 +1,13 @@
-import { HttpClient } from '@angular/common/http';
+// <!-- /*
+// * File: students.component.ts
+// * Author: Kovács Dorina
+// * Copyright: 2023,  Kovács Dorina
+// * Group: Szoft II/N
+// * Date: 2023-03-02
+// * Github: https://github.com/Kdorina/
+// * Licenc: GNU GPL
+// */ -->
+
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../service/api.service';
 

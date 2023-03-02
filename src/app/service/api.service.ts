@@ -1,3 +1,14 @@
+// <!-- /*
+// * File: api.service.ts
+// * Author: Kovács Dorina
+// * Copyright: 2023,  Kovács Dorina
+// * Group: Szoft II/N
+// * Date: 2023-03-02
+// * Github: https://github.com/Kdorina/
+// * Licenc: GNU GPL
+// */ -->
+
+
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 

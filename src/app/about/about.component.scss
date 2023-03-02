@@ -1,0 +1,31 @@
+// <!-- /*
+// * File: about.component.scss
+// * Author: Kovács Dorina
+// * Copyright: 2023,  Kovács Dorina
+// * Group: Szoft II/N
+// * Date: 2023-03-02
+// * Github: https://github.com/Kdorina/
+// * Licenc: GNU GPL
+// */ -->
+
+.about{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+}
+.card{
+    padding: 20px;
+    width: 550px;
+    height: 200px;
+    justify-content: center;
+    background-color: rgba(160, 176, 255, 0.26);
+    box-shadow: 0 10px 20px rgb(0, 0, 0,0.1);
+    border: none;
+    border-radius: 10px;
+
+}
+h2 ,h5 ,h6{
+    margin: 10px;
+}
