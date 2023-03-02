@@ -1,2 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'bootstrap'
+$theme-colors: (
+  "success":    rgb(205, 255, 194),
+  "info":       rgb(196, 187, 255),
+  "warning":    rgb(255, 207, 118),
+  "danger":     rgb(255, 86, 86),
+
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+@import 'bootstrap';

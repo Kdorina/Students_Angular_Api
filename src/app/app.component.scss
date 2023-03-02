@@ -21,8 +21,16 @@ a{
     text-decoration: none;
     color:black;
     font-style: none;
+    font-family: bejamin;
 }
+a:visited{
+    color: black;
+}
+
 a:hover{
-    color:rgb(255, 187, 187);
+    color: rgb(124, 104, 255);
+}
+a:active{
+    color: rgb(124, 104, 255);
 }
 

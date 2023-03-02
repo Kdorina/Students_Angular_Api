@@ -12,6 +12,7 @@
 h2{
     margin-top: 50px;
     text-transform:uppercase;
+    font-family: bejamin;
 }
 
 .container{
@@ -27,11 +28,11 @@ h2{
 .studentsTable{
     display: flex;
     width: 500px;
-    background-color: rgb(234, 235, 255);
+    background-color: rgba(160, 176, 255, 0.26);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 10px 20px rgb(0, 0, 0,0.1);
-    // margin-right: 20px;
+
     justify-content: center;
     align-items: center;
     
